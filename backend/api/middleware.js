@@ -1,5 +1,5 @@
 const jwt=require("jsonwebtoken");
-const { usernameSchema, passwordShema } = require("./zod");
+const { usernameSchema, passwordShema } = require("../zod");
 const jwt_password="123";
 
 function jwt_sign(username)
